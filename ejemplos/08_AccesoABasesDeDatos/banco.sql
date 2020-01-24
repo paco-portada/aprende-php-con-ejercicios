@@ -22,7 +22,7 @@ SET time_zone = "+00:00";
 -- Base de datos: `banco`
 --
 CREATE DATABASE banco;
---------------------------------------------------------
+-- ------------------------------------------------------
 --
 -- Estructura de tabla para la tabla `cliente`
 --
