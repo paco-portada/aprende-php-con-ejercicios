@@ -1,3 +1,5 @@
+-- mysql  -u  root  -p  <  banco.sql
+-- 
 -- phpMyAdmin SQL Dump
 -- version 3.4.11.1deb1
 -- http://www.phpmyadmin.net
@@ -19,9 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `banco`
 --
-
--- --------------------------------------------------------
-
+CREATE DATABASE banco;
+--------------------------------------------------------
 --
 -- Estructura de tabla para la tabla `cliente`
 --
