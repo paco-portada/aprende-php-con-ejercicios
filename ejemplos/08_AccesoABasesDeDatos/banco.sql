@@ -22,6 +22,10 @@ SET time_zone = "+00:00";
 -- Base de datos: `banco`
 --
 CREATE DATABASE banco;
+
+CREATE USER 'alumno'@'localhost' IDENTIFIED BY 'malaga20*';
+GRANT ALL PRIVILEGES ON banco.* TO 'alumno'@'localhost';
+
 USE banco;
 -- ------------------------------------------------------
 --
